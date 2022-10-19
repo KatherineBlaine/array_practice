@@ -22,3 +22,24 @@ console.log(ages.slice(1, 3));
 areNice.shift()
 
 console.log(areNice)
+
+
+// Index Positions:
+
+// Index positions define the position of each value in an array. 
+// Index positions count up from 0.
+// In the array : var ages = [12, 15, 25, 44]
+
+// The value 12 is in index position 0
+// The value 15 is in index position 1
+// The value 25 is in index position 2
+// The value 44 is in index position 3
+
+// You can access certain index positions within an array by indicating
+// the array name followed by the index position number in brackets.
+
+// For example, in the array example used previously, the following line of
+// code would refer to the value in index position 1, or '12':
+// ages[0]
+// Running 'console.log(ages[0])' would print the value of index position
+// 0 of the ages array to the console.
